@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="formContainer">
+      <form class="formBody">
+        <h2 class="title">Registration</h2>
+        <div class="inputs">
+          <label for="name">Name</label>
+          <input type="text" class="name" />
+          <span class="error">Please enter your Name</span>
+        </div>
+        <div class="inputs">
+          <label for="dob">Date of Birth</label>
+          <input type="date" class="dob" />
+          <span class="error">Please enter your Date of birth</span>
+        </div>
+        <div class="inputs">
+          <label for="sex">Gender</label>
+          <select name="gender" class="sex">
+            <option value=""></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="none">Prefer not to say</option>
+          </select>
+          <span class="error">Please Select your Gender</span>
+        </div>
+        <div class="inputs">
+          <label for="edu">Qualification</label>
+          <input type="text" class="edu" />
+          <span class="error">Please enter your Qualifications</span>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
